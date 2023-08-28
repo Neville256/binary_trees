@@ -29,7 +29,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	if (pleft)
 	{
 		pleft->parent = new_node;
-		new_rode->left = pleft;
+		new_node->left = pleft;
 	}
 
 	return (new_node);
